@@ -1,0 +1,56 @@
+.App {
+  
+}
+
+#header {
+  margin: 20px 30px;
+  height: 150px;
+  border: 1px solid #aaa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.generatedNumberContainer, .lastNumberContainer{
+  float: left;
+  padding: 20px;
+  background: #eee;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.lastNumberContainer {
+  padding: 15px;
+}
+
+.generatedNumber, .lastNumberDisplay{
+  font-size: 63px;
+  text-align: center;
+}
+
+.lastNumberDisplay {
+  font-size: 36px;
+}
+
+.lastNumber {
+  font-weight: bold;
+}
+
+#generateButton {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#tileContainer{
+  clear: both;
+  margin: 20px;
+  width: 1000px;
+}
+
+#displayRules, #notes {
+  float: left;
+}
+
+#notes {
+  margin-left: 30px;
+}

@@ -1,0 +1,14 @@
+.tile{
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 7px 17px;
+  border: 1px solid black;
+  padding: 18px;
+}
+
+.done{
+  background: #c3c8e5;
+}
